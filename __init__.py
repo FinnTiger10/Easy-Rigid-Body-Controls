@@ -1,23 +1,11 @@
-bl_info = {
-    "name": "Easy Rigid Body Controls",
-    "author": "Tigerten",  # Replace with your name!
-    "version": (1, 0),  # Version number (major, minor)
-    "blender": (4, 0, 0),  # Minimum Blender version
-    "location": "View3D > Sidebar > Easy Rigid Bodies",
-    "description": "Adds commonly used rigid body controls to the sidebar (N panel) for ease of use.",
-    "warning": "",
-    "doc_url": "",
-    "category": "Physics",
-}
-
 import bpy
 
 class EasyRigidBodies(bpy.types.Panel):
-    bl_idname = "easyrigidbodiespanel"
-    bl_label = "Easy Rigid Body Controls"
+    bl_idname = "easyrigidbodytools"
+    bl_label = "Easy Rigid Body Tools"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = "Easy Rigid Body Controls"
+    bl_category = "Easy Rigid Body Tools"
 
     def draw(self, context):
         self.layout.label(text="Add rigid bodies")
