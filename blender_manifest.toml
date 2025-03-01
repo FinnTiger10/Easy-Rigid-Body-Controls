@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+blender_version_min = "4.2.0"
+id = "easyrigidbodytools"
+version = "0.1.0"
+name = "Easy Rigid Body Tools"
+tagline = "Moves commonly used rigid body tools to the sidebar (N panel)"
+maintainer = "TigerTen"
+type = "add-on"
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2025 Tigerten",
+]
